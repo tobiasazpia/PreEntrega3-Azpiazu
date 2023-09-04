@@ -1,0 +1,45 @@
+body{
+	font-family: "Josefin Sans", sans-serif;
+	background-color: bisque;
+}
+
+h1{
+	text-align: center;
+}
+
+.navegacion {
+	display: flex;
+	box-sizing: border-box;
+}
+
+ul.navegacion__nav  {  
+    display: flex;
+	width: 100%;
+	margin-left: 100px;
+	margin-right: 100px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 3px 5px;
+}
+
+h2{
+    font-style: italic;
+}
+
+.col1{
+	width: 50%;
+} 
+
+.col2{
+	position: absolute;
+    width: 50%;
+    left: 50%;
+	top: 200px;
+} 
+
+img {
+	align-content: center;
+	width: 400px;
+	height: 400px;
+  }
